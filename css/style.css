@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 300px;
+    min-height: 300px;
+    padding-top: 150px;
+    margin: 0 auto;
+    /* background-color: pink; */
+}
+.container img{
+    width: 100%;
+}
+.container section{
+    min-height: 450px;
+    position: relative;
+}
+#yellow{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.none{
+    display: none;
+}
+.block{
+    display: block;
+}
+#btn{
+    border-radius: 1rem;
+    background-color:deepskyblue;
+    border: black solid 1px;
+    text-align: center;
+    margin: 0px 90px;
+    padding: 5px 0px;
+}
